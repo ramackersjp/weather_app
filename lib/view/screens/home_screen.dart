@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
       if (weatherController.weather.value.current == null ||
           weatherController.weather.value.current!.condition == null) {
         return const Scaffold(
-          backgroundColor: AppColors.primaryColor,
+          backgroundColor: Color.fromARGB(255, 37, 49, 59),
           body: Center(
             child: CircularProgressIndicator(),
           ),
@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
         aqiCalculate();
         temperatureUnitsCheck();
         return Scaffold(
-          backgroundColor: AppColors.primaryColor,
+          backgroundColor: const Color.fromARGB(255, 37, 49, 59),
           appBar: appBarStyle(
             title: widget.location,
             arrow: true,

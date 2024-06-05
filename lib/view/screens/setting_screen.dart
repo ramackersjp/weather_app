@@ -28,7 +28,7 @@ class _SettingScreenState extends State<SettingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: AppColors.primaryColor,
+        backgroundColor: const Color.fromARGB(255, 37, 49, 59),
         appBar: appBarStyle(
           title: "Setting",
         ),
