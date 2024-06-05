@@ -20,7 +20,7 @@ class ForecastListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.primaryColor,
+      backgroundColor: const Color.fromARGB(255, 37, 49, 593),
       appBar: appBarStyle(
         title: "5-day forecast",
         locationIcon: true,
