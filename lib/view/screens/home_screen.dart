@@ -340,7 +340,7 @@ Widget homeScreenForecastList(
                     width: 10,
                   ),
                   Text(
-                    "Next Three days forecast",
+                    "Tomorrow",
                     style: GoogleFonts.roboto(
                         textStyle: const TextStyle(
                       color: AppColors.secondaryColor,
@@ -352,7 +352,7 @@ Widget homeScreenForecastList(
             ListView.builder(
               physics: const NeverScrollableScrollPhysics(),
               shrinkWrap: true,
-              itemCount: 3,
+              itemCount: 1,
               itemBuilder: (BuildContext context, int index) {
                 final day = forecast[index + 1].day!;
                 return Row(
@@ -662,7 +662,7 @@ Widget forecastButton(
           ),
           child: Center(
             child: Text(
-              '5-day forecast',
+              '3-day forecast',
               style: GoogleFonts.roboto(
                 textStyle: const TextStyle(
                   color: AppColors.secondaryColor,

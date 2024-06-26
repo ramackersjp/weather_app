@@ -10,7 +10,7 @@ class WeatherApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Weather App',
+      title: 'Weather',
       theme: ThemeData(
         colorSchemeSeed: AppColors.primaryColor,
         useMaterial3: true,

@@ -30,7 +30,7 @@ class _SearchScreenState extends State<SearchScreen> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 37, 49, 59),
       appBar: appBarStyle(
-        title: "Search Location!!!!!",
+        title: "Your location:",
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),

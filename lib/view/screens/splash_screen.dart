@@ -69,7 +69,7 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
           const Spacer(),
           Text(
-            '1.0.0',
+            '1.0.1',
             style: GoogleFonts.roboto(
               textStyle: const TextStyle(
                 color: AppColors.secondaryColor,

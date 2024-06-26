@@ -22,7 +22,7 @@ class ForecastListScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 37, 49, 593),
       appBar: appBarStyle(
-        title: "5-day forecast",
+        title: "3-day forecast",
         locationIcon: true,
         selectedLocation: location,
       ),
@@ -45,7 +45,7 @@ class ForecastListScreen extends StatelessWidget {
       child: ListView.builder(
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,
-        itemCount: 5,
+        itemCount: 3,
         itemBuilder: (context, index) {
           DateTime forecastDate = DateTime.parse(forecast[index].date ?? 'N/A');
           bool isCurrentDate = DateTime.now().day == forecastDate.day &&
